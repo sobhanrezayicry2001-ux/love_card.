@@ -1,3 +1,4 @@
-consol.log(JS LOADED);
-function startexperience() {alert("کار کرد");
-                           }
+consol.log("JS LOADED");
+function startexperience() {
+  alert("کار کرد");
+}
