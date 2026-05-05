@@ -28,9 +28,12 @@ function typeWriter() {
 function startExperience() {
   document.getElementById("startScreen").style.display = "none";
   document.getElementById("mainContent").classList.remove("hidden");
-
+  document.getElementById("music").play();
+  
   const music = document.getElementById("music");
   music.play();
 
   typeWriter();
 }
+function startexperience() {alert("کار کرد");
+                           }
